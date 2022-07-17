@@ -1,0 +1,29 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+
+.nav-links li {
+    display: flex;
+    list-style: none;
+    margin-right: 80px
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact-btn {
+    background-color: #271AC1;
+    color: #fff;
+    padding: 19px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+}

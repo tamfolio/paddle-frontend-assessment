@@ -1,0 +1,96 @@
+.comingsoon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 440px;
+}
+
+.coming-soon-header {
+    font-size: 62px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.comingsoon .header-p {
+    font-size: 21px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 22px;
+}
+
+.comingsoon .header-p span {
+    font-weight: 500;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.countdown-card {
+    width: 120px;
+    height: 134px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.countdown-card>h1 {
+    font-weight: 600;
+    font-size: 47px;
+}
+
+.countdown-card>p {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.input-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 61px;
+}
+
+.input-form input {
+    border: none;
+    margin-right: 20px;
+    background-color: transparent;
+    color: #707070;
+    border-bottom: 1px solid #707070;
+    padding: 13px 17px;
+}
+
+.wait-list {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wait-list input {
+    width: 664px;
+    height: 67px;
+    padding: 23px 46px;
+    border-radius: 51px;
+}
+
+.waitlist-btn {
+    border: none;
+    padding: 20px 30px;
+    background-color: #271ac1;
+    color: #fff;
+    font-size: 16px;
+    height: 67px;
+    border-radius: 51px;
+    margin-left: -236px;
+}
